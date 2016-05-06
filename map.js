@@ -3,7 +3,7 @@
  */
 var number
 
-document.write("This is a JavaScript script")
+document.write("This is a JavaScript script" + "<br>")
 
 for(number = 0; number < 10; number++)
 	{
