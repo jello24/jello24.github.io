@@ -4,7 +4,7 @@ body {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 100%;
     text-align: left;
-    background-color: lightgrey;
+    background-color: ghostwhite;
 }
 
 h1 {
@@ -19,20 +19,26 @@ p {
     font-weight: normal;
 }
 
+#nav-bar {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: 1.25em;
+    font-weight: bold;
+    border-right: 1px solid white;
+    background-color: #246393;
+}
 
- ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #246393;
- }
+ul.nav {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
 
-li {
+li.nav {
     float: left;
 }
 
-li a {
+li a.nav {
     display: block;
     color: white;
     text-align: center;
@@ -40,10 +46,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active-nav-bar).nav {
     background-color: #013E6E;
 }
 
-.active {
+.active-nav-bar {
     background-color: #E05A00;
 }
