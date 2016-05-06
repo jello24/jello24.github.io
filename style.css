@@ -1,1 +1,11 @@
 @CHARSET "ISO-8859-1";
+
+body {
+	background-color: grey;
+	font-family: "Monospaced";
+	text-align: left;
+}
+
+h1 {
+	text-align: left;
+}
