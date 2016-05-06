@@ -1,5 +1,3 @@
-/nbproject/private/
 project.*
-/nbproject
-/WebContent
-/.settings
+nbproject/*
+.settings/*
