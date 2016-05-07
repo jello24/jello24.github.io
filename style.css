@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 body {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Lucida Console", monospace;
     font-size: 100%;
     text-align: left;
     background-color: ghostwhite;
@@ -20,25 +20,25 @@ p {
 }
 
 #nav-bar {
-    font-family: "Courier New", "Lucida Console", monospace;
-    font-size: 1.25em;
-    font-weight: bold;
+    font-family: "Lucida Console", monospace;
+    font-size: 1em;
+    font-weight: normal;
     border-right: 1px solid white;
     background-color: #246393;
 }
 
-ul.nav {
+#nav-bar ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
 
-li.nav {
+#nav-bar li {
     float: left;
 }
 
-li a.nav {
+#nav-bar li a {
     display: block;
     color: white;
     text-align: center;
@@ -46,7 +46,7 @@ li a.nav {
     text-decoration: none;
 }
 
-li a:hover:not(.active-nav-bar).nav {
+#nav-bar li a:hover:not(.active-nav-bar) {
     background-color: #013E6E;
 }
 
