@@ -1,4 +1,10 @@
 @CHARSET "ISO-8859-1";
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: "Lucida Console", monospace;
@@ -25,9 +31,11 @@ p {
     font-weight: normal;
     border-right: 1px solid white;
     background-color: #246393;
+    height: 50px;
 }
 
 #nav-bar ul {
+    position: fixed;
     list-style-type: none;
     overflow: hidden;
     margin: 0;
