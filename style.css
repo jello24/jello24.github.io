@@ -27,11 +27,10 @@ p {
 
 #nav-bar {
     font-family: "Lucida Console", monospace;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: normal;
-    border-right: 1px solid white;
     background-color: #246393;
-    height: 50px;
+    height: 60px;
 }
 
 #nav-bar ul {
@@ -50,8 +49,9 @@ p {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 20px;
     text-decoration: none;
+    border-right: 2px ghostwhite;
+    padding: 18px 20px;
 }
 
 #nav-bar li a:hover:not(.active-nav-bar) {
