@@ -61,3 +61,8 @@ p {
 .active-nav-bar {
     background-color: #E05A00;
 }
+
+#map {
+    height: calc(100% - 56px);
+    width: 100%;
+}
